@@ -4,7 +4,7 @@ CREATE DATABASE chat;
 
 USE chat;
 
-
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('');
 
 /* Create other tables and define schemas for them here! */
 CREATE TABLE users (
